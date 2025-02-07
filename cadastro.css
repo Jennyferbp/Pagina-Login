@@ -1,0 +1,104 @@
+
+body{
+  margin: 0;
+  font-family: "Roboto', sans-serif;
+ }
+.main-cadastro{  /* principal */
+  width: 100vw;
+  height: 100vh;
+  background: #6a5acd; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+.left-cadastro{    /* layout esquerdo */
+  width: 60vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+.dados {  /* imagem */
+  width: 30vw;
+}
+.left-cadastro > h4 {
+  color: #fbfbfb;
+}
+
+.right-cadastro {   /* layout direito */
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ }
+
+.card-cadastro {  /* FORMULARIO -- login */
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: 100px; /* canto superio esquerdo*/
+  border-bottom-right-radius: 10px; /* canto inferior direito*/
+ }
+
+.card-cadastro > h1 {   /* BALÃO DO TEXTO*/
+  color: #6a5acd;
+  font-size: 40px;
+  margin-bottom: 80px;
+ }
+
+.card-cadastro > h2{
+  color: #6a5acd;
+  font-size: 30px;
+} 
+
+.textfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0px;
+ }
+ 
+.textfield > input { /* Caixa de entrada de texto*/
+  width: 80%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid silver;
+  outline: none;
+  font-weight: 500;
+  color: #1c1c1c;
+  padding-left: 3px;
+  font-size: 20px;
+  margin-top: 5px;
+
+ }
+
+.bt-cad {
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: #6a5acd;
+  font-size: 18px;
+  margin-top: 15px;
+ }
+
+ p{
+  font-size: 20px;
+  color: #000000;
+ }
+
+p > a{
+  color: #6a5acd;
+ }
