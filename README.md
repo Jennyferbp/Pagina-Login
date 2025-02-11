@@ -1,4 +1,4 @@
-<h1 align: center;> Página de Login </h1>
+<h1> Projeto de interface de Login </h1>
 
 ---
 # Descrição do projeto
