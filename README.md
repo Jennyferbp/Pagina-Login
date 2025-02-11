@@ -1,7 +1,7 @@
 <h1> Projeto de interface de Login </h1>
 
----
-# Descrição do projeto
+
+<h2> Descrição do projeto </h2>
 
 <p> Site minimalista com design simples. Foco na usabilidade, com uma interface intuitiva, responsiva e elegante. Desenvolvido em HTML e CSS para uma experiência fluida e moderna. </p>
 
